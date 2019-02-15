@@ -6,6 +6,8 @@
 /// @group normalize
 ////
 
+$paragraph-margin-bottom: 10px !default;
+
 #outlook a {
   padding: 0;
 }
@@ -59,8 +61,10 @@ center {
   min-width: $global-width;
 }
 
-a img {
-  border: none;
+
+p {
+  margin: 0 0 0 $paragraph-margin-bottom;
+  Margin: 0 0 0 $paragraph-margin-bottom;
 }
 
 table {
@@ -70,17 +74,10 @@ table {
 
 td {
   word-wrap: break-word;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  hyphens: auto;
-  border-collapse: collapse !important;
 }
 
 table, tr, td {
-  padding-top: 0;
-  padding-right: 0;
-  padding-bottom: 0;
-  padding-left: 0;
+  padding: 0;
   vertical-align: top;
   text-align: left;
 }
